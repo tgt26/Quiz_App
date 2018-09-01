@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container quiz-container" id="quiz-container">
+            <div class="title">
+                <h1>Quiz Game</h1>
+            </div>
+            <div class="question-container"> </div>
+            <label class="option"><input type="radio" value='1' name="option"><span id="opt1"></span></label>
+
+            <label class="option"><input type="radio" value='2' name="option"> <span id="opt2"></span></label>
+
+            <label class="option"><input type="radio" value='3' name="option"> <span id="opt3"></span></label>
+
+            <label class="option"><input type="radio" value='4' name="option"> <span id="opt4"></span></label>
+
+            <button class='next-btn' id="next-btn">Next Question</button>
+        </div>
+        <div class="result">
+            <div class="result-inner-text"></div>
+        </div>
+    </div>
+
+    <script src="script/main.js"></script>
+</body>
+
+</html>
